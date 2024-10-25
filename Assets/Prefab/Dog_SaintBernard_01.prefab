@@ -4099,9 +4099,9 @@ GameObject:
   - component: {fileID: 1600472314918097791}
   - component: {fileID: 1600472314911012799}
   - component: {fileID: 1600472314113906350}
-  - component: {fileID: -6541524291672541079}
   - component: {fileID: 8162406271727139067}
-  - component: {fileID: 5065895633964863301}
+  - component: {fileID: 3391440322688604792}
+  - component: {fileID: 2948767776384481380}
   m_Layer: 0
   m_Name: Dog_SaintBernard_01
   m_TagString: Untagged
@@ -4195,18 +4195,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 5
---- !u!114 &-6541524291672541079
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1600472314918383247}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1561e910ef578a2429354d6052aae04b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &8162406271727139067
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -4220,7 +4208,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.0771819, y: 0.17826912, z: 0.20555668}
   m_Center: {x: 0.0024631147, y: 0.0793825, z: 0.0014833907}
---- !u!114 &5065895633964863301
+--- !u!114 &3391440322688604792
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -4229,7 +4217,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 1600472314918383247}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cdee0f1d1c7599f4c97c50fa462ff60f, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c52ee72091692143869a36cdefe1fd7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &2948767776384481380
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1600472314918383247}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81e62e9a8a22fac478a927ce940e28f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &1600472314918383779

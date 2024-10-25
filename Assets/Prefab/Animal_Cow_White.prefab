@@ -1454,9 +1454,9 @@ GameObject:
   - component: {fileID: 182680989762183123}
   - component: {fileID: 182680989752485087}
   - component: {fileID: 182680988015681945}
-  - component: {fileID: -252023310100746269}
   - component: {fileID: 3924144302951896060}
-  - component: {fileID: 5183868872002386719}
+  - component: {fileID: 6779060488195599513}
+  - component: {fileID: 8155132316852504800}
   m_Layer: 0
   m_Name: Animal_Cow_White
   m_TagString: Untagged
@@ -1514,18 +1514,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 3
---- !u!114 &-252023310100746269
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 182680989761939967}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 1561e910ef578a2429354d6052aae04b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!65 &3924144302951896060
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1539,7 +1527,7 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 11.970848, y: 28.907349, z: 39.264957}
   m_Center: {x: -0.20704533, y: 13.953676, z: -2.60977}
---- !u!114 &5183868872002386719
+--- !u!114 &6779060488195599513
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1548,7 +1536,19 @@ MonoBehaviour:
   m_GameObject: {fileID: 182680989761939967}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: cdee0f1d1c7599f4c97c50fa462ff60f, type: 3}
+  m_Script: {fileID: 11500000, guid: 2c52ee72091692143869a36cdefe1fd7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &8155132316852504800
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 182680989761939967}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 81e62e9a8a22fac478a927ce940e28f7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1 &182680989761941375
